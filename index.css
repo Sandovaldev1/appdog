@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+ }
+body{
+   color: aliceblue;
+   background-color: #0C2D48;
+}
+
+.navbar-default{
+   background-color: aliceblue;
+   width: 50%;
+   height: 60px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.navbar-default h1{
+   text-align: center;
+   color: black;
+   text-decoration: none;
+}
+
+a{
+   text-decoration: none;
+}
+article{
+   display: inline-block;
+   margin-left: 50px;
+}
+img{
+   margin-left: 5;
+   width: 400px;
+   height: 300px;
+   margin-top: 15px;
+   border-radius: 20px;
+}
+
+#randomDogs{
+   background-color: #5885af6c;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 20px;
+   border-radius: 2px;
+
+}
+
+ #Mybuton{
+   background-color: aliceblue;
+    margin-top: 45px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    align-items: center;
+ }
+ #Mybuton:hover{
+   background-color: #F8D210;
+   transition: all 600ms ease;
+ }
+
+ #favoritesh2, h2{
+   text-align: center;
+   margin-top: 15px;
+ }
+button{
+  background-color: rgb(252, 23, 23);
+  margin-left: 5px;
+  border-radius: 10px;
+  width: 151px;
+  height: 50px;
+}
+ #favoriteButton, #favoriteButton2, #favoriteButton3, #favoriteButton4, #favoriteButton5, #favoriteButton6{
+   background-color: aquamarine;
+   margin-left: 5px;
+   border-radius: 10px;
+   width: 151px;
+   height: 50px;
+ } button:hover{
+  background-color: aliceblue;
+  transition: all 600ms ease;
+}
+
+ #favoriteButton:hover{
+   background-color: aliceblue;
+   transition: all 600ms ease;
+ }
+ #favoriteButton2:hover{
+   background-color: aliceblue;
+   transition: all 600ms ease;
+ }
+ #favoriteButton3:hover{
+   background-color: aliceblue;
+   transition: all 600ms ease;
+ }
+ #favoriteButton4:hover{
+   background-color: aliceblue;
+   transition: all 600ms ease;
+ }
+ #favoriteButton5:hover{
+   background-color: aliceblue;
+   transition: all 600ms ease;
+ }
+ #favoriteButton6:hover{
+   background-color: aliceblue;
+   transition: all 600ms ease;
+ }
+
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  #randomDogs{
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+
+
+ }
+ article{
+  
+width: 100%;
+margin-left: auto;
+
+
+
+}
+img{
+  width: 305px;
+  height: 300px;
+  margin-bottom: 2px;
+  margin-top: 15px;
+  border-radius: 20px;
+  margin-left: 5px;
+  border-style:inset;
+  border-color: black;
+}
+.navbar-default{
+  background-color: aliceblue;
+  width: 61%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ button:hover{
+  background-color: aliceblue;
+  transition: all 600ms ease;
+}
+
+ #favoriteButton:hover{
+   background-color: rgba(243, 39, 39, 0.815);
+   transition: all 600ms ease;
+ }
+ #favoriteButton2:hover{
+   background-color: rgba(243, 39, 39, 0.815);
+   transition: all 600ms ease;
+ }
+ #favoriteButton3:hover{
+   background-color: rgba(243, 39, 39, 0.815);
+   transition: all 600ms ease;
+ }
+ #favoriteButton4:hover{
+   background-color: rgba(243, 39, 39, 0.815);
+   transition: all 600ms ease;
+ }
+ #favoriteButton5:hover{
+   background-color: rgba(243, 39, 39, 0.815);
+   transition: all 600ms ease;
+ }
+ #favoriteButton6:hover{
+   background-color: rgba(243, 39, 39, 0.815);
+   transition: all 600ms ease;
+ }
+#Mybuton{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: black;
+  margin-bottom: 15px;
+  margin-top: 45px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 170px;
+  height: 55px;
+  align-items: center;
+}
+#Mybuton:hover{
+  background-color: #F8D210;
+  transition: all 600ms ease;
+}
+
+button{
+  background-color: aliceblue;
+  margin-left: 5px;
+  border-radius: 10px;
+  width: 151px;
+  height: 50px;
+}
+button:hover{
+  background-color: #F8D210;
+  transition: all 600ms ease;
+}
+
+
+
+
+
+
+}
